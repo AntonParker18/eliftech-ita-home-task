@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style/style.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="app-wrapper">
+    <div class="text-wrapper">
+      <h1>Learn to code by watching others</h1>
+      <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but
+        understanding how developers think is invaluable.</p>
+    </div>
+
+    <div class="form-wrapper">
+      <div class="free-period">
+        <h4>
+          <b>Try it free 7 days</b> then $20/mo.thereafter
+        </h4>
+      </div>
+
+      <form action="/" id="form">
+        <div class="input-control">
+          <input type="text" placeholder="First Name" id="first_name">
+          <label for="first_name" class="error"></label>
+        </div>
+        <div class="input-control">
+          <input type="text" placeholder="Last Name" id="last_name">
+          <label for="last_name" class="error"></label>
+        </div>
+        <div class="input-control">
+          <input type="email" placeholder="Email" id="email">
+          <label for="last_name" class="error"></label>
+        </div>
+        <div>
+          <input type="password" placeholder="Password" id="password">
+          <label for="password" class="error"></label>
+        </div>
+        <div>
+
+          <button>CLAIM YOUR FREE TRAIL</button>
+          <p class="terms_and_service">
+            By clicking the button, you are agreed to our
+            <a class="link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">
+              Terms and Services
+            </a>
+          </p>
+
+        </div>
+      </form>
+
+    </div>
+  </div>
+  <script src="./script/index.js"></script>
+</body>
+
+</html>
